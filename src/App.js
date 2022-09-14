@@ -12,7 +12,7 @@ class App extends Component {
     show: false,
   };
 
-  Active = () => {
+  Aprove = () => {
     this.setState({
       show: !this.state.show,
     });
@@ -21,7 +21,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <button onClick={this.Active}>
+        <button onClick={this.Aprove}>
           {this.state.show ? "Hide" : "Show"}
         </button>
         {this.state.show ? (
